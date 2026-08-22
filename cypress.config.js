@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  // defaultCommandTimeout: 6000, // timeout set 6sec for all test should wait before fail
   allowCypressEnv: false,
 
   e2e: {

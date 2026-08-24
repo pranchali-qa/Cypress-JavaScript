@@ -7,7 +7,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "HeadedTest": "npx cypress run --headed", // headed mode
+    "chromeTest" : "npx cypress run --browser chrome", // chrome browser tests
+    "greenCartTests" : "npx cypress run --spec \"cypress/integration/examples/greenCartTests/*\"" // set of tests test1.js and test2.js
   },
   "devDependencies": {
     "cypress": "^15.20.1",

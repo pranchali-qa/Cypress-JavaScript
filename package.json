@@ -8,9 +8,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
-    "HeadedTest": "npx cypress run --headed", // headed mode
-    "chromeTest" : "npx cypress run --browser chrome", // chrome browser tests
-    "greenCartTests" : "npx cypress run --spec \"cypress/integration/examples/greenCartTests/*\"" // set of tests test1.js and test2.js
+    "HeadedTest": "npx cypress run --headed", 
+    "chromeTest" : "npx cypress run --browser chrome", 
+    "greenCartTests" : "npx cypress run --spec \"cypress/integration/examples/greenCartTests/*\"" 
   },
   "devDependencies": {
     "cypress": "^15.20.1",
